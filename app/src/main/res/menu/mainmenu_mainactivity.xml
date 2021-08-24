@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/paste_title"
+          android:icon="@drawable/content_paste"
+          app:showAsAction="ifRoom"
+          android:id="@+id/paste"/>
+    <item android:title="@string/undo_title"
+          android:id="@+id/undo"
+          android:icon="@drawable/undo_variant"
+          app:showAsAction="ifRoom"
+          android:visible="false"/>
+    <item android:title="@string/new_folder_title"
+          android:icon="@drawable/folder_plus"
+          app:showAsAction="never"
+          android:id="@+id/new_folder"/>
+    <item android:title="@string/new_text_file_title"
+          android:icon="@drawable/file_plus"
+          app:showAsAction="never"
+          android:id="@+id/new_text_file"/>
+    <item android:title="@string/view_title"
+          android:icon="@drawable/view_list"
+          app:showAsAction="never"
+          android:id="@+id/view"/>
+    <item android:title="@string/sort_title"
+          app:showAsAction="never"
+          android:id="@+id/sort">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="@string/sort_by_name_title"
+                      app:showAsAction="never"
+                      android:id="@+id/byname"/>
+                <item android:title="@string/sort_by_date_title"
+                      app:showAsAction="never"
+                      android:id="@+id/bydate"/>
+                <item android:title="@string/sort_by_size_title"
+                      app:showAsAction="never"
+                      android:id="@+id/bysize"/>
+            </group>
+            <item android:title="@string/sort_ascending_title"
+                  app:showAsAction="never"
+                  android:id="@+id/ascdesc"/>
+        </menu>
+    </item>
+    <item android:title="@string/hidden_files_show_title"
+          android:icon="@drawable/file_hidden"
+          app:showAsAction="never"
+          android:id="@+id/showhidden"/>
+    <item android:title="@string/select_all_title"
+          android:icon="@drawable/select_all"
+          app:showAsAction="ifRoom"
+          android:id="@+id/selectall"/>
+    <item android:title="@string/deselect_all_title"
+          android:icon="@drawable/select_off"
+          app:showAsAction="ifRoom"
+          android:id="@+id/deselectall"/>
+</menu>

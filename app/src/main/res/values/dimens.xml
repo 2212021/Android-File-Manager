@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="row_height_list">100dp</dimen>
+    <dimen name="row_height_grid">130dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="details_height">35dp</dimen>
+    <dimen name="context_button_size">25dp</dimen>
+    <dimen name="num_columns">4</dimen>
+</resources>

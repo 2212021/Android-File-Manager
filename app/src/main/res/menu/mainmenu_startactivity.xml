@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/view_title"
+          android:icon="@drawable/view_list_outline"
+          app:showAsAction="ifRoom"
+          android:id="@+id/view"/>
+    <item android:title="@string/add_storage_media_title"
+          android:icon="@drawable/bookmark_plus_outline"
+          app:showAsAction="never"
+          android:id="@+id/add_storage"/>
+    <item android:id="@+id/about"
+          android:title="@string/about_title"
+          android:icon="@drawable/information_outline"
+          app:showAsAction="never"/>
+</menu>

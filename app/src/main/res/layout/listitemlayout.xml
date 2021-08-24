@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height_list"
+        android:clickable="true"
+        android:focusable="true">
+
+    <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/row_height_list"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:paddingStart="@dimen/padding_large"
+            android:paddingEnd="@dimen/padding"
+            android:paddingTop="@dimen/padding_large"
+            android:paddingBottom="@dimen/padding_large"
+            android:contentDescription="@string/icon_thumbnail_content_description"/>
+    <TextView
+            android:id="@+id/title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_large"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"/>
+    <TextView
+            android:id="@+id/subtitle"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintStart_toEndOf="@id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_large"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"/>
+    <Button
+            android:id="@+id/button"
+            android:background="@drawable/menu_open"
+            android:layout_width="@dimen/context_button_size"
+            android:layout_height="@dimen/context_button_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"/>
+    <CheckBox
+            android:visibility="gone"
+            android:id="@+id/checkbox"
+            android:layout_width="@dimen/context_button_size"
+            android:layout_height="@dimen/context_button_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

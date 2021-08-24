@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/details_title"
+          android:icon="@drawable/information_outline"
+          app:showAsAction="ifRoom"
+          android:id="@+id/details"/>
+    <item android:title="@string/rename_title"
+          android:icon="@drawable/rename_box"
+          app:showAsAction="ifRoom"
+          android:id="@+id/rename"/>
+    <item android:title="@string/copy_title"
+          android:icon="@drawable/content_copy"
+          app:showAsAction="ifRoom"
+          android:id="@+id/copy"/>
+    <item android:title="@string/cut_title"
+          android:icon="@drawable/content_cut"
+          app:showAsAction="ifRoom"
+          android:id="@+id/cut"/>
+    <item android:title="@string/delete_title"
+          android:icon="@drawable/delete_forever"
+          app:showAsAction="ifRoom"
+          android:id="@+id/delete"/>
+    <item android:title="@string/add_to_pinned_title"
+          android:icon="@drawable/bookmark_plus_outline"
+          app:showAsAction="ifRoom"
+          android:id="@+id/pin"/>
+    <item android:title="@string/select_all_title"
+          android:icon="@drawable/select_all"
+          app:showAsAction="ifRoom"
+          android:id="@+id/selectall"/>
+    <item android:title="@string/deselect_all_title"
+          android:icon="@drawable/select_off"
+          app:showAsAction="ifRoom"
+          android:id="@+id/deselectall"/>
+</menu>
